@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HW-4</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+    <script src="movie.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      movie ratings
+    </h1>
+    <form id="myForm" onsubmit = "return false">
+      <fieldset>
+        <legend>please rate your movies</legend>
+        <br />
+        <label for="name">name of movie</label>
+        <input type="text" id="name">
+        <label for="rating">rating</label>
+        <select name="rating" id="rating">
+          <option value="1">★</option>
+          <option value="2">★★</option>
+          <option value="3">★★★</option>
+          <option value="4">★★★★</option>
+          <option value="5">★★★★★</option>
+        </select>
+        <br />
+        <br />
+        <button type="button" id ="addMovie">add movie</button>
+        <button type="button" id ="showMovies">show movies</button>
+      </fieldset>
+      <br />
+
+      <fieldset id = "list">
+        my movie ratings
+        <div id ="listed">
+
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
