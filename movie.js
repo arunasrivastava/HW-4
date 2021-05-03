@@ -3,7 +3,7 @@ function movieObject(title, rating) {
     this.rating = rating;
     this.isValid = function () {
       let x = document.getElementById("name").value;
-      if ((this.title !== null) && (this.rating >= 1) && (this.rating <= 5)){
+      if ((this.title != null) && (this.rating >= 1) && (this.rating <= 5)){
         return true
       }
       else{ 
