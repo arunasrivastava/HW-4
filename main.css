@@ -1,0 +1,73 @@
+h1 {
+    font-family: "Krona One", sans-serif;
+    color: red;
+  }
+  
+  body {
+    font-size: 20px;
+    background-color: #fff6ed;
+  }
+  fieldset {
+    font-family: "Titillium Web", sans-serif;
+    background-color: white;
+    border: 2px solid red;
+  }
+  
+  input[type="text"] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  legend {
+    background-color: orange;
+    color: white;
+    padding: 12px;
+  }
+  select {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  
+  #addMovie {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    font-family: "Krona One", sans-serif;
+    transition: 0.3s;
+  }
+  
+  #addMovie {
+    transition-timing-function: ease;
+  }
+  
+  #addMovie:hover {
+    background-color: #ff9f38;
+  }
+  
+  #showMovies {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    font-family: "Krona One", sans-serif;
+    transition: 0.3s;
+  }
+  
+  #showMovies {
+    transition-timing-function: ease;
+  }
+  
+  #showMovies:hover {
+    background-color: #ff9f38;
+  }
+  

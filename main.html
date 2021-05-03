@@ -4,14 +4,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HW-4</title>
-    <link rel="stylesheet" href="main.css" />
-    <script src="main.js" defer></script>
-    <script src="movie.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<script src="main.js"></script> 
+<script src= "movie.js"></script>
   </head>
   <body>
-    <h1>
+    <h1 class="animate__animated animate__rotateIn">
       movie ratings
     </h1>
+    <img src="https://cdn.glitch.com/46809587-66f5-4083-99ba-5ba46390d011%2Fpopcorn.gif?v=1620001088015">
+    <h2 id= "demo">
+      
+    </h2>
     <form id="myForm" onsubmit = "return false">
       <fieldset>
         <legend>please rate your movies</legend>
@@ -36,7 +48,6 @@
       <fieldset id = "list">
         my movie ratings
         <div id ="listed">
-
         </div>
       </fieldset>
     </form>
